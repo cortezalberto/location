@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Location Object</h1>
+<h2>The search Property</h2>
+
+<p>
+    <a id="miParrafo" href="https://www.w3schools.com/?answer=yes">
+https://www.w3schools.com/?answer=yes</a>
+</p>
+
+<p id="demo"></p>
+
+<script>
+let anchor = document.getElementById("miParrafo");
+let query = anchor.search;
+
+document.getElementById("demo").innerHTML = "La porción de la query es: "
+ + query;
+</script>
+
+</body>
+</html>
